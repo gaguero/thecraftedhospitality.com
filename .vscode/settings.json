@@ -1,0 +1,67 @@
+{
+  // Editor Settings
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  
+  // File Associations
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  
+  // TypeScript Settings
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.suggest.autoImports": true,
+  "typescript.preferences.includePackageJsonAutoImports": "auto",
+  
+  // Tailwind CSS Settings
+  "tailwindCSS.includeLanguages": {
+    "typescript": "typescript",
+    "typescriptreact": "typescriptreact"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+  
+  // CSS Settings
+  "css.validate": false,
+  "scss.validate": false,
+  
+  // ESLint Settings
+  "eslint.workingDirectories": ["./"],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  
+  // File Explorer
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.tsx": "${capture}.js",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml",
+    "tailwind.config.*": "postcss.config.*"
+  },
+  
+  // Search and Replace
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.git": true
+  },
+  
+  // Auto-save
+  "files.autoSave": "onWindowChange",
+  
+  // Terminal
+  "terminal.integrated.defaultProfile.windows": "PowerShell"
+} 

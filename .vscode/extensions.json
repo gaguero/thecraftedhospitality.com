@@ -1,0 +1,32 @@
+{
+  "recommendations": [
+    // Essential for Next.js + TypeScript + Tailwind development
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "bradlc.vscode-tailwindcss",
+    "ms-vscode.vscode-typescript-next",
+    
+    // React Development
+    "ms-vscode.vscode-react-refactor",
+    "formulahendry.auto-rename-tag",
+    "christian-kohler.path-intellisense",
+    
+    // Git Integration
+    "eamodio.gitlens",
+    
+    // Productivity
+    "ms-vscode.vscode-json",
+    "yzhang.markdown-all-in-one",
+    "ms-vscode.vscode-css-peek",
+    
+    // Optional but helpful
+    "bradlc.vscode-postcss-language-support",
+    "ms-playwright.playwright",
+    "ms-vscode.powershell"
+  ],
+  "unwantedRecommendations": [
+    // Extensions that might conflict with our setup
+    "hookyqr.beautify",
+    "esbenp.prettier-vscode-standard"
+  ]
+} 
