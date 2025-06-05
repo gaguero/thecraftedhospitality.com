@@ -1,0 +1,14 @@
+# Layout Components Directory
+
+This directory will contain layout-related components such as:
+- Navigation (Navbar)
+- Footer
+- Sidebar
+- Header components
+- Layout wrappers
+
+Example structure:
+- Navbar.tsx
+- Footer.tsx
+- Header.tsx
+- Sidebar.tsx 

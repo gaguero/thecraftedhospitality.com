@@ -1,0 +1,9 @@
+# Fonts Directory
+
+This directory will contain self-hosted font files if needed:
+- Brand fonts (Playfair Display, Open Sans, Dancing Script)
+- Custom font files (.woff, .woff2, .ttf)
+- Font display files for better loading performance
+
+Note: Google Fonts are preferred for this project but this directory
+is available for custom or self-hosted fonts if required. 

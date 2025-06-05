@@ -1,0 +1,13 @@
+# Styles Directory
+
+This directory will contain additional CSS modules and styles beyond globals.css:
+- Component-specific styles
+- Theme variables
+- CSS modules
+- Animation definitions
+
+Example structure:
+- components.module.css
+- animations.css
+- themes.css
+- utilities.css 

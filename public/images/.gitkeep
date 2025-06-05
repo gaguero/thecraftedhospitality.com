@@ -1,0 +1,16 @@
+# Images Directory
+
+This directory will contain static images for the website:
+- Hero background images
+- Service icons
+- Team photos
+- Client logos
+- Case study images
+- UI graphics
+
+Recommended organization:
+- /icons/ - Service and UI icons
+- /hero/ - Hero section backgrounds
+- /team/ - Team member photos
+- /logos/ - Client and partner logos
+- /case-studies/ - Portfolio images 

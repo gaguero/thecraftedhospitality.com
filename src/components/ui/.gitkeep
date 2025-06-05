@@ -1,0 +1,15 @@
+# UI Components Directory
+
+This directory will contain reusable UI components such as:
+- Buttons
+- Input fields
+- Form elements
+- Cards
+- Modal components
+- Loading components
+
+Example structure:
+- Button.tsx
+- Input.tsx
+- Card.tsx
+- Modal.tsx 

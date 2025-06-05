@@ -1,0 +1,16 @@
+# Section Components Directory
+
+This directory will contain larger page-specific section components such as:
+- Hero sections
+- Service pillars
+- Testimonials
+- Case studies
+- Contact forms
+- Feature sections
+
+Example structure:
+- HeroSection.tsx
+- ServicePillars.tsx
+- TestimonialsSection.tsx
+- CaseStudiesSection.tsx
+- ContactSection.tsx 

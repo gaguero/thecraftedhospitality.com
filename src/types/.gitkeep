@@ -1,0 +1,15 @@
+# TypeScript Types Directory
+
+This directory will contain custom TypeScript interfaces and types such as:
+- Service types
+- Contact form types
+- API response types
+- Component prop types
+- Business domain types
+
+Example structure:
+- index.ts (main types export)
+- services.ts
+- contact.ts
+- api.ts
+- components.ts 

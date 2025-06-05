@@ -1,0 +1,399 @@
+# Product Requirements Document (PRD)
+## The Crafted Hospitality - Professional Consulting Website
+
+### 1. PROJECT OVERVIEW
+
+**Project Name**: The Crafted Hospitality Website
+**Project Type**: Professional B2B Consulting Website
+**Consultant**: Gerson, Hospitality & Tourism Specialist
+**Target Launch**: 7 weeks from start
+**Hosting Platform**: Railway
+**Repository**: GitHub
+
+### 2. BUSINESS OBJECTIVES
+
+**Primary Goal**: Establish professional online presence for hospitality consulting services in Panama and Latin America
+
+**Key Objectives**:
+- Generate qualified leads from hotels, agencies, and tourism operators
+- Position as expert in hospitality consulting and DMC services
+- Achieve SEO ranking for "consultoría hotelera Panamá"
+- Build credibility through case studies and testimonials
+- Create platform for thought leadership content
+
+**Target Audience**:
+1. Wholesale agencies (USA, LatAm, Asia)
+2. Independent hotels in Panama and LatAm
+3. Boutique hotel chains
+4. Tourism operators
+
+### 3. BRAND IDENTITY & DESIGN
+
+**Brand Name**: The Crafted Hospitality
+**Tagline**: "Consultoría y Gestión Boutique en Turismo y Hospitalidad"
+
+**Visual Identity**:
+- Logo: "CH" monogram in header and favicon
+- Primary Color: Dark green (#2D4A3E)
+- Secondary Color: Anthracite (#3A3A3A)
+- Accent Color: Gold/brass (#B8860B)
+- Background: Clean white (#FFFFFF)
+
+**Typography**:
+- Headers: Serif font for "Crafted" (elegance)
+- Body Text: Sans-serif for "Hospitality" (readability)
+- Accent: Script font for premium touches
+
+**Design Principles**:
+- Professional and elegant aesthetic
+- "Artesanal" (artisanal/crafted) approach
+- Generous white space
+- Mobile-first responsive design
+- High-quality photography focus
+
+### 4. SITE STRUCTURE & PAGES
+
+**4.1 Homepage (/)**
+Hero Section:
+- Large title: "Crafted Hospitality"
+- Subtitle: "Consultoría y Gestión Boutique en Turismo y Hospitalidad"
+- Two CTAs: "Solicitar Consulta" and "Ver Servicios"
+- Professional photo of Gerson in hospitality setting
+
+Three Service Pillars:
+1. Gestión DMC & Experiencias (icon: briefcase/compass)
+2. Consultoría Hotelera & Tecnología (icon: gear/screen)
+3. Mejora de Experiencia del Huésped (icon: star/happy guest)
+
+Testimonials Section:
+- 3-4 client quotes with names and positions
+- Focus on measurable results (% improvements)
+
+Featured Case Studies:
+- 3 case study previews with images
+- Link to full portfolio page
+
+Newsletter signup and professional footer
+
+**4.2 About Page (/sobre-mi)**
+- Professional photo of Gerson
+- Personal story and 8+ years experience
+- Credentials and certifications
+- Values and methodology (4 pillars: Personalización, Resultados medibles, Transparencia, Colaboración)
+- CTA: "Trabajemos juntos"
+
+**4.3 Services Page (/servicios)**
+
+**DMC & Experiences Section**:
+1. Reservations & Commissions for Wholesale Agencies
+   - Negotiation with hotel channels
+   - Competitive rates and occupancy optimization
+   - Monthly reports and transparent billing
+   - CTA: "Solicita tu propuesta DMC"
+
+2. Custom Packages & Experiences
+   - Unique itineraries for different traveler profiles
+   - Exclusive recommendations: ecolodges, local operators, signature restaurants
+   - Documented experiences with trusted local providers
+   - CTA: "Ver ejemplos de itinerarios"
+
+3. 24/7 Support for Groups & Events
+   - Complete travel support from airport to departure
+   - Emergency management and last-minute changes
+   - Direct communication channels (WhatsApp Business)
+   - CTA: "Conoce nuestro soporte"
+
+**Hotel Consulting & Technology Section**:
+1. Process Diagnosis & Operational Design
+   - Workflow analysis (reception, cleaning, F&B, back-office)
+   - Bottleneck identification and Lean methodology improvements
+   - Documented procedure manuals
+   - CTA: "Solicitar diagnóstico gratuito"
+
+2. Hotel Technology Implementation & Optimization
+   - PMS, CRS, CRM selection and implementation
+   - OTA integrations and channel manager setup
+   - Team training for maximum system utilization
+   - CTA: "Conoce las soluciones tecnológicas"
+
+3. Guest Experience Strategy Design
+   - Guest journey creation/improvement from pre-check-in to post-stay
+   - Welcome call scripts, satisfaction surveys, loyalty programs
+   - CTA: "Descargar guía de guest journey"
+
+4. Team Training & Customer Service Coaching
+   - In-person or virtual workshops for front desk, housekeeping, F&B, managers
+   - Focus on authentic hospitality, upselling, conflict resolution
+   - CTA: "Solicita tu taller a medida"
+
+5. Quality Audits & Mystery Guest
+   - Surprise audits following international standards (ISO, Forbes)
+   - Detailed reports with improvement opportunities
+   - 30/60-day follow-up action plans
+   - CTA: "Agenda tu auditoría"
+
+**4.4 Portfolio/Case Studies (/casos-de-exito)**
+- Grid layout of case study cards
+- Each case: image, title, brief result summary
+- Individual case study pages with:
+  - Client name and project
+  - Initial challenge
+  - Proposed solution
+  - Measurable results (before/after metrics)
+  - Client testimonial
+- CTA: "¿Quieres ser nuestro siguiente caso de éxito?"
+
+**4.5 Blog (/blog)**
+Content categories:
+- Hotel technology innovation (Cloudbeds, PMS, CRS)
+- Hospitality operational best practices
+- Guest experience and loyalty
+- Panama & LatAm tourism trends
+- Brief case studies
+
+Article structure:
+- SEO-optimized titles
+- Featured images (1200x600px minimum)
+- Proper H1-H6 hierarchy
+- Numbered lists and bold highlights
+- CTA conclusions
+
+Sidebar elements:
+- Newsletter subscription form
+- Most read posts
+- Featured case study links
+
+**4.6 Contact (/contacto)**
+Contact form fields:
+- Full name (required)
+- Company/Hotel/Agency (required)
+- Position/Role (required)
+- Email (required)
+- Phone (required)
+- Brief message (required)
+- Data privacy consent checkbox
+
+Direct contact information:
+- Email: hola@thecraftedhospitality.com
+- Phone with WhatsApp Business
+- Physical address or "Remote and on-site service in Panama"
+
+Optional Calendly integration:
+- "Schedule a 30-minute diagnostic consultation"
+- Embedded calendar widget
+
+**4.7 Legal Pages (/legal)**
+- Terms and Conditions
+- Privacy Policy (GDPR + Panama data protection compliance)
+- Cookie Policy
+
+### 5. TECHNICAL REQUIREMENTS
+
+**5.1 Technology Stack**
+Primary recommendation: Webflow
+- Visual design control
+- Built-in SEO tools
+- Fast hosting included
+- No-code content updates
+
+Alternative options:
+- WordPress + Elementor (more flexibility)
+- Next.js + Headless CMS (high performance)
+
+**5.2 Hosting & Infrastructure**
+- Platform: Railway
+- Domain: thecraftedhospitality.com
+- SSL: Automatic HTTPS
+- Database: PostgreSQL (if needed)
+- CI/CD: GitHub integration
+
+**5.3 Performance Requirements**
+Core Web Vitals targets:
+- LCP (Largest Contentful Paint): < 2.5s
+- FID (First Input Delay): < 100ms
+- CLS (Cumulative Layout Shift): < 0.1
+
+Optimization strategies:
+- WebP image format with lazy loading
+- Critical CSS inline, deferred non-critical
+- Minimal JavaScript, deferred loading
+- Browser caching and CDN
+
+**5.4 SEO Requirements**
+On-page SEO:
+- Unique meta titles/descriptions per page
+- Proper H1-H6 hierarchy
+- Clean, descriptive URLs
+- Alt text for all images
+- Schema markup (LocalBusiness, Service, Review)
+
+Technical SEO:
+- XML sitemap auto-generation
+- Robots.txt optimization
+- Canonical URLs
+- Mobile-first indexing
+- Core Web Vitals optimization
+
+Target keywords:
+- "consultoría hotelera Panamá"
+- "DMC Panamá"
+- "optimización procesos hoteles"
+- "experiencia del huésped"
+- "implementación PMS hoteles"
+
+### 6. INTEGRATIONS
+
+**Essential Integrations**:
+1. Google Analytics 4
+   - Enhanced ecommerce tracking
+   - Goal tracking (form submissions, downloads)
+   - Custom events for CTAs
+
+2. Google Search Console
+   - Search performance monitoring
+   - Indexing status tracking
+
+3. Contact Form Solution
+   - Form validation and spam protection
+   - Email notifications
+   - CRM integration capability
+
+**Optional Integrations**:
+- Calendly for appointment booking
+- Mailchimp/ConvertKit for email marketing
+- WhatsApp Business integration
+- Hotjar for user behavior analysis
+- Live chat widget (Tawk.to)
+
+### 7. CONTENT REQUIREMENTS
+
+**7.1 Professional Photography**
+- High-quality images of hotels, happy guests, behind-the-scenes consulting work
+- Professional headshot of Gerson in hospitality setting
+- Images of meetings, presentations, technology implementations
+- Minimum resolution: 1200x600px for featured images
+
+**7.2 Video Content (Optional)**
+- 15-30 second homepage video showing day-to-day consulting work
+- Meeting with hotel manager, guest interactions, report reviews
+
+**7.3 Testimonials & Case Studies**
+- 3-4 client testimonials with measurable results
+- 3+ detailed case studies with before/after metrics
+- Client permissions for photos and quotes
+
+**7.4 Blog Content**
+Initial 3 articles:
+1. "Cómo elegir el PMS ideal para tu hotel"
+2. "Tendencias 2025 en experiencia del huésped"
+3. "Guía breve de DMC para agencias wholesale"
+
+### 8. USER EXPERIENCE REQUIREMENTS
+
+**8.1 Navigation**
+Desktop:
+- Horizontal menu: Inicio | Sobre Mí | Servicios | Casos de Éxito | Blog | Contacto
+- Prominent "Solicitar Consulta" CTA button in header
+
+Mobile:
+- Hamburger menu with sticky CTA
+- Touch-friendly interface
+- Fast loading on mobile networks
+
+**8.2 Conversion Optimization**
+- Clear value proposition within 5 seconds
+- Multiple CTAs throughout the site
+- Trust signals (certifications, testimonials)
+- Easy contact and consultation booking
+- Lead magnets (free guides, diagnostic offers)
+
+**8.3 Accessibility**
+- WCAG 2.1 AA compliance
+- Alt text for images
+- Keyboard navigation
+- Proper color contrast ratios
+
+### 9. ANALYTICS & TRACKING
+
+**9.1 Key Metrics**
+- Website traffic and sources
+- Contact form conversion rate
+- Newsletter signups
+- Blog engagement
+- Case study page views
+- Service page performance
+
+**9.2 Goals Setup**
+- Contact form submissions
+- Phone call clicks
+- Email clicks
+- Calendar booking completions
+- Resource downloads
+
+### 10. SECURITY & COMPLIANCE
+
+**10.1 Security**
+- HTTPS everywhere
+- Form spam protection (reCAPTCHA)
+- Regular security updates
+- Secure contact form handling
+
+**10.2 Compliance**
+- GDPR compliance (cookie consent)
+- Panama data protection laws
+- Privacy policy and terms of service
+- Data retention policies
+
+### 11. LAUNCH REQUIREMENTS
+
+**11.1 Pre-Launch Checklist**
+- All pages completed and tested
+- Contact forms functional
+- SEO optimization complete
+- Mobile responsiveness verified
+- Performance optimization applied
+- Analytics and tracking configured
+
+**11.2 Post-Launch**
+- Monitor Core Web Vitals
+- Track conversion metrics
+- Begin content marketing strategy
+- Start SEO monitoring
+- Client feedback collection
+
+### 12. SUCCESS METRICS
+
+**Short-term (4 weeks)**:
+- Website launched and fully functional
+- Basic SEO foundation established
+- Contact forms generating leads
+- Professional brand presence established
+
+**Medium-term (3 months)**:
+- Organic traffic growth from SEO
+- Regular lead generation from website
+- Content strategy producing engagement
+- Professional credibility demonstrated
+
+**Long-term (6-12 months)**:
+- Strong SEO positioning for target keywords
+- Consistent monthly lead generation
+- Client testimonials and new case studies
+- Platform supporting business growth
+
+### 13. BUDGET CONSIDERATIONS
+
+**Development costs**:
+- Webflow Professional plan
+- Professional photography
+- Content creation and copywriting
+- Domain and email hosting
+- Initial SEO optimization
+
+**Ongoing costs**:
+- Monthly hosting and platform fees
+- Email marketing tool
+- Analytics and monitoring tools
+- Content updates and maintenance
+
+This PRD provides comprehensive requirements for building a professional consulting website that will establish Gerson's credibility, generate qualified leads, and support business growth in the hospitality consulting market. 
