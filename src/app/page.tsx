@@ -1,103 +1,85 @@
-import Image from "next/image";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className="grid min-h-screen grid-rows-[20px_1fr_20px] items-center justify-items-center gap-16 p-8 pb-20 font-[family-name:var(--font-geist-sans)] sm:p-20">
-      <main className="row-start-2 flex flex-col items-center gap-[32px] sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
+    <div className="relative min-h-screen flex flex-col items-center justify-center bg-brand-cream text-brand-primary p-8 md:p-16 overflow-hidden">
+      {/* Background Logo Watermark */}
+      <div className="absolute inset-0 z-0">
+        <img 
+          src="/images/logo/logo-primary-center.png"
+          alt=""
+          className="w-full h-full object-contain opacity-5 pointer-events-none"
         />
-        <ol className="list-inside list-decimal text-center font-[family-name:var(--font-geist-mono)] text-sm/6 sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="rounded bg-black/[.05] px-1 py-0.5 font-[family-name:var(--font-geist-mono)] font-semibold dark:bg-white/[.06]">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+      </div>
 
-        <div className="flex flex-col items-center gap-4 sm:flex-row">
-          <a
-            className="flex h-10 items-center justify-center gap-2 rounded-full border border-solid border-transparent bg-foreground px-4 text-sm font-medium text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] sm:h-12 sm:w-auto sm:px-5 sm:text-base"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="flex h-10 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-4 text-sm font-medium transition-colors hover:border-transparent hover:bg-[#f2f2f2] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] sm:h-12 sm:w-auto sm:px-5 sm:text-base md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+      {/* Content Container - ensure it's above the watermark */}
+      <div className="relative z-10 text-center max-w-3xl mx-auto">
+        <h1 className="font-heading text-5xl md:text-7xl font-bold mb-8">
+          The Crafted Hospitality
+        </h1>
+        <p className="font-sans text-2xl md:text-3xl mb-12">
+          Expert Hospitality Consulting in Panama & Latin America
+        </p>
+        <p className="font-sans text-xl md:text-2xl mb-20 leading-relaxed">
+          Our full website is currently under meticulous construction. We are crafting an exceptional online experience to showcase how we can elevate your hospitality business.
+        </p>
+
+        <div className="mb-20">
+          <h2 className="font-heading text-3xl md:text-4xl font-semibold mb-10 text-center">Our Core Services Include:</h2>
+          <div className="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+            {/* Service 1 */}
+            <div className="text-left">
+              <div className="flex items-start mb-3">
+                <svg className="w-8 h-8 text-accent mr-4 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 .5l2.939 5.455 6.572.955-4.756 4.635 1.123 6.545z"></path></svg>
+                <h3 className="font-sans text-xl font-semibold text-brand-primary">Personalized DMC & Experiential Tourism Management</h3>
+              </div>
+              {/* Optional: Add a short description for each service here if desired */}
+            </div>
+
+            {/* Service 2 */}
+            <div className="text-left">
+              <div className="flex items-start mb-3">
+                <svg className="w-8 h-8 text-accent mr-4 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 .5l2.939 5.455 6.572.955-4.756 4.635 1.123 6.545z"></path></svg>
+                <h3 className="font-sans text-xl font-semibold text-brand-primary">Strategic Hotel Consulting & Technology Implementation</h3>
+              </div>
+              {/* Optional: Add a short description */}
+            </div>
+
+            {/* Service 3 */}
+            <div className="text-left">
+              <div className="flex items-start mb-3">
+                <svg className="w-8 h-8 text-accent mr-4 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 .5l2.939 5.455 6.572.955-4.756 4.635 1.123 6.545z"></path></svg>
+                <h3 className="font-sans text-xl font-semibold text-brand-primary">Restaurant Operations & Culinary Excellence Advisory</h3>
+              </div>
+              {/* Optional: Add a short description */}
+            </div>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex flex-wrap items-center justify-center gap-[24px]">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+
+        <hr className="border-accent my-20" />
+
+        <div className="mb-20">
+          <h2 className="font-heading text-3xl md:text-4xl font-semibold mb-10">Get in Touch</h2>
+          <p className="font-sans text-lg md:text-xl mb-6">
+            We are excited to discuss your project. While our site is being perfected, please reach out to us directly:
+          </p>
+          <p className="font-sans text-xl md:text-2xl font-semibold">
+            Email: <a href="mailto:info@thecraftedhospitality.com" className="text-accent hover:text-accent/80 underline">info@thecraftedhospitality.com</a>
+          </p>
+          <p className="font-sans text-xl md:text-2xl font-semibold mt-3">
+            Phone: <a href="tel:+50762114762" className="text-accent hover:text-accent/80 underline">+507 62114762</a>
+          </p>
+        </div>
+
+        <div className="animate-pulse mb-6">
+          <svg className="w-16 h-16 text-accent mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+          </svg>
+        </div>
+        <p className="font-sans text-lg">
+          Stay tuned for our full launch!
+        </p>
+      </div>
     </div>
   );
 }
+
