@@ -1,0 +1,77 @@
+{
+  "hero": {
+    "title": "The Crafted Hospitality",
+    "subtitle": "Sistemas que aprenden de tu operación para elevarla",
+    "description": "Transformamos propiedades en empresas rentables y fluidas que deleitan en cada punto de contacto, elevando las operaciones a través de tecnología inteligente y procesos refinados.",
+    "cta_primary": "Solicitar Consulta",
+    "cta_secondary": "Explorar Servicios"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Servicios integrales de consultoría en hospitalidad para transformar tu visión empresarial en realidad.",
+    "dmc": {
+      "title": "Servicios DMC",
+      "description": "Gestión de destinos y desarrollo turístico para mostrar las atracciones únicas de Panamá.",
+      "features": {
+        "experiences": "Experiencias Curadas",
+        "events": "Gestión de Eventos",
+        "development": "Desarrollo Turístico"
+      }
+    },
+    "consulting": {
+      "title": "Consultoría Hotelera",
+      "description": "Planificación estratégica, optimización de operaciones y mejora de la experiencia del huésped para hoteles de todos los tamaños.",
+      "features": {
+        "revenue": "Gestión de Ingresos",
+        "operations": "Excelencia Operativa",
+        "experience": "Diseño de Experiencias"
+      }
+    },
+    "restaurant": {
+      "title": "Consultoría Gastronómica",
+      "description": "Estrategia culinaria, operaciones de cocina y optimización de la experiencia gastronómica.",
+      "features": {
+        "menu": "Desarrollo de Menús",
+        "kitchen": "Optimización de Cocina",
+        "training": "Capacitación de Personal"
+      }
+    }
+  },
+  "about": {
+    "title": "Acerca de The Crafted Hospitality",
+    "subtitle": "Combinando experiencia internacional con profundo conocimiento local para crear experiencias excepcionales de hospitalidad en Panamá.",
+    "expertise_title": "Nuestra Experiencia",
+    "expertise": {
+      "international": {
+        "title": "Estándares Internacionales",
+        "description": "Prácticas de hospitalidad de clase mundial adaptadas para mercados latinoamericanos"
+      },
+      "local": {
+        "title": "Conocimiento del Mercado Local",
+        "description": "Profundo entendimiento del panorama cultural y empresarial único de Panamá"
+      },
+      "results": {
+        "title": "Resultados Comprobados",
+        "description": "Historial de transformaciones exitosas en hospitalidad en toda la región"
+      }
+    },
+    "leadership": {
+      "title": "Liderazgo Experto",
+      "description": "Dirigido por profesionales de hospitalidad con amplia experiencia en hoteles de lujo, gestión de destinos y desarrollo turístico en Centroamérica.",
+      "cta": "Listo para elevar tu negocio de hospitalidad a nuevas alturas"
+    }
+  },
+  "cta": {
+    "title": "¿Listo para Transformar tu Negocio de Hospitalidad?",
+    "description": "Conversemos sobre cómo nuestra experiencia puede ayudarte a crear experiencias extraordinarias para tus huéspedes y lograr un crecimiento sostenible en el dinámico mercado de hospitalidad de Panamá.",
+    "primary": "Agendar Consulta Gratuita",
+    "secondary": "Descargar Nuestro Portafolio"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "language": "Idioma"
+  }
+} 

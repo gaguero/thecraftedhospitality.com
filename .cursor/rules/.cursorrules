@@ -1,0 +1,152 @@
+# The Crafted Hospitality - Agent Workflow Rules
+
+## MANDATORY STARTUP SEQUENCE - EVERY SESSION
+
+### 1. 🧠 CONTEXT GATHERING (REQUIRED)
+**BEFORE ANY WORK**: Agent MUST execute this sequence:
+
+```workflow
+1. Read ALL Memory Bank files (required):
+   - memory-bank/projectbrief.md
+   - memory-bank/productContext.md
+   - memory-bank/activeContext.md
+   - memory-bank/systemPatterns.md
+   - memory-bank/techContext.md
+   - memory-bank/progress.md
+
+2. Get Taskmaster Status:
+   - Use mcp_taskmaster-ai_get_tasks to see all tasks
+   - Use mcp_taskmaster-ai_next_task to identify next work
+   - Use mcp_taskmaster-ai_get_task for detailed task info
+
+3. Understand Current State:
+   - Review what's completed vs. planned
+   - Identify gaps between memory bank and tasks
+   - Assess current codebase state
+```
+
+### 2. 📋 PLANNING & APPROVAL WORKFLOW (MANDATORY)
+
+**NO WORK WITHOUT APPROVAL**: Agent must follow this sequence:
+
+```workflow
+1. Research Phase:
+   - Use mcp_context7_resolve-library-id for relevant tech
+   - Use mcp_context7_get-library-docs for implementation details
+   - Gather comprehensive documentation for the planned work
+
+2. Plan Presentation:
+   - Explain WHAT will be done (specific tasks/changes)
+   - Explain WHY it's needed (business/technical justification)
+   - Explain HOW it will be implemented (technical approach)
+   - Show documentation references and best practices
+   - Estimate time/complexity
+
+3. Wait for User Approval:
+   - Present plan clearly with bullet points
+   - Ask "Do you approve this plan?"
+   - DO NOT PROCEED without explicit approval
+   - Adjust plan based on user feedback if needed
+```
+
+### 3. 🔄 WORK EXECUTION & DOCUMENTATION (REQUIRED)
+
+**DURING WORK**: Agent must maintain documentation:
+
+```workflow
+1. Before Starting:
+   - Update mcp_taskmaster-ai_set_task_status to "in-progress"
+   - Update memory-bank/activeContext.md with current work
+
+2. During Implementation:
+   - Make small, logical commits with clear messages
+   - Update subtasks with mcp_taskmaster-ai_update_subtask for progress notes
+   - Document challenges, solutions, and decisions
+
+3. After Completion:
+   - Update mcp_taskmaster-ai_set_task_status to "done"
+   - Update memory-bank/progress.md with completed work
+   - Update memory-bank/activeContext.md with next steps
+   - Commit final changes with comprehensive commit message
+```
+
+### 4. 🧪 VALIDATION & TESTING (REQUIRED)
+
+**AFTER IMPLEMENTATION**: Agent must validate work:
+
+```workflow
+1. Automated Testing:
+   - Use mcp_playwright_browser_navigate to test the site
+   - Use mcp_playwright_browser_screen_capture for visual validation
+   - Test responsive design and functionality
+   - Document any issues found
+
+2. Stagewise Validation:
+   - Test development environment
+   - Verify production deployment if applicable
+   - Check performance and accessibility
+
+3. Update Documentation:
+   - Record test results in progress.md
+   - Update any broken patterns in systemPatterns.md
+   - Note performance improvements or issues
+```
+
+## FORBIDDEN ACTIONS
+
+❌ **NEVER DO THESE**:
+- Start work without reading Memory Bank
+- Skip the planning and approval phase
+- Work without MCP Context7 documentation research
+- Forget to update Taskmaster status
+- Skip testing and validation
+- Leave memory bank outdated
+- Make changes without clear commit messages
+
+## PROJECT-SPECIFIC PATTERNS
+
+### Technology Stack Compliance
+- **Next.js 15** with App Router (use latest patterns)
+- **TypeScript** with strict typing (no any types)
+- **Tailwind CSS** with design system colors
+- **Bilingual EN/ES** support (always maintain both)
+
+### Design System Rules
+- Use brand colors: primary-green #1F3D2F, accent-gold #D5A20D
+- Typography: Playfair Display (headings), Lato (body)
+- Responsive design: mobile-first approach
+- Accessibility: proper ARIA labels and semantic HTML
+
+### Content Strategy
+- Professional, trustworthy tone
+- Focus on B2B hospitality consulting
+- Highlight Panama/Latin America expertise
+- Include clear calls-to-action
+
+## COMMUNICATION RULES
+
+### Status Updates
+- Always show current task being worked on
+- Provide progress percentages when possible
+- Explain what's next after current work
+- Ask for feedback at logical stopping points
+
+### Error Handling
+- If Context7 docs are insufficient, explain limitations
+- If Playwright tests fail, document and explain issues
+- If Memory Bank conflicts with code, flag for resolution
+- If tasks are unclear, ask for clarification before proceeding
+
+## SUCCESS METRICS
+
+✅ **Measure Success By**:
+- Memory Bank accurately reflects current state
+- Taskmaster tasks match actual progress
+- Code changes have proper documentation
+- Site functionality verified through testing
+- User approval obtained before major work
+- Clean, professional commit history
+
+---
+
+**REMEMBER**: This is a professional business website for a hospitality consultant. Every change should enhance credibility, user experience, and business objectives. Quality over speed, planning over rushing. 

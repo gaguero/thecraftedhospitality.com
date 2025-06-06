@@ -5,10 +5,13 @@
 
 **Project Name**: The Crafted Hospitality Website
 **Project Type**: Professional B2B Consulting Website
-**Consultant**: Gerson, Hospitality & Tourism Specialist
+**Consultant**: Gerson, Guest Experience Strategist with 10+ years of experience
 **Target Launch**: 7 weeks from start
 **Hosting Platform**: Railway
 **Repository**: GitHub
+
+**Company Philosophy**: 
+Exceptional guest experiences emerge from intelligently designed operations. We combine traditional hospitality artesanship with systems that learn from your operation to elevate it, transforming numbers into processes that produce memorable experiences.
 
 ### 2. BUSINESS OBJECTIVES
 
@@ -22,10 +25,16 @@
 - Create platform for thought leadership content
 
 **Target Audience**:
-1. Wholesale agencies (USA, LatAm, Asia)
-2. Independent hotels in Panama and LatAm
-3. Boutique hotel chains
-4. Tourism operators
+1. Wholesale agencies (USA, LatAm, Asia) seeking reliable local expertise
+2. Independent hotels in Panama and LatAm ready for operational excellence
+3. Boutique hotel chains pursuing cohesive guest journey enhancement
+4. Tourism operators requiring data-informed destination strategies
+
+**Core Positioning**:
+- Guest Experience Architect designing operations that consistently delight
+- Revenue Intelligence Specialist with dynamic optimization strategies
+- Operational Excellence Engineer using artesanal intelligence
+- DMC Innovation Leader with predictive insights and local market intelligence
 
 ### 3. BRAND IDENTITY & DESIGN
 
@@ -77,9 +86,10 @@ Newsletter signup and professional footer
 
 **4.2 About Page (/sobre-mi)**
 - Professional photo of Gerson
-- Personal story and 8+ years experience
+- Personal story and 10+ years experience as Guest Experience Strategist
 - Credentials and certifications
-- Values and methodology (4 pillars: Personalización, Resultados medibles, Transparencia, Colaboración)
+- Values and methodology (4 pillars: Personalización Inteligente, Resultados Medibles, Transparencia Operativa, Colaboración Evolutiva)
+- Unique value proposition: "Elevating operations through intelligent technology and refined processes"
 - CTA: "Trabajemos juntos"
 
 **4.3 Services Page (/servicios)**

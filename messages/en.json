@@ -1,0 +1,77 @@
+{
+  "hero": {
+    "title": "The Crafted Hospitality",
+    "subtitle": "Systems that learn from your operation to elevate it",
+    "description": "Elevating operations through intelligent technology and refined processes. We transform properties into seamless, profitable ventures that delight at every touchpoint.",
+    "cta_primary": "Book Consultation",
+    "cta_secondary": "Explore Services"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive hospitality consulting services to transform your business vision into reality.",
+    "dmc": {
+      "title": "DMC Services",
+      "description": "Destination management and tourism development to showcase Panama's unique attractions.",
+      "features": {
+        "experiences": "Curated Experiences",
+        "events": "Event Management",
+        "development": "Tourism Development"
+      }
+    },
+    "consulting": {
+      "title": "Hotel Consulting",
+      "description": "Strategic planning, operations optimization, and guest experience enhancement for hotels of all sizes.",
+      "features": {
+        "revenue": "Revenue Management",
+        "operations": "Operations Excellence",
+        "experience": "Experience Design"
+      }
+    },
+    "restaurant": {
+      "title": "Restaurant Consulting",
+      "description": "Culinary strategy, kitchen operations, and dining experience optimization.",
+      "features": {
+        "menu": "Menu Development",
+        "kitchen": "Kitchen Optimization",
+        "training": "Staff Training"
+      }
+    }
+  },
+  "about": {
+    "title": "About The Crafted Hospitality",
+    "subtitle": "Combining international expertise with deep local knowledge to create exceptional hospitality experiences in Panama.",
+    "expertise_title": "Our Expertise",
+    "expertise": {
+      "international": {
+        "title": "International Standards",
+        "description": "World-class hospitality practices adapted for Latin American markets"
+      },
+      "local": {
+        "title": "Local Market Knowledge",
+        "description": "Deep understanding of Panama's unique cultural and business landscape"
+      },
+      "results": {
+        "title": "Proven Results",
+        "description": "Track record of successful hospitality transformations across the region"
+      }
+    },
+    "leadership": {
+      "title": "Expert Leadership",
+      "description": "Led by hospitality professionals with extensive experience in luxury hotels, destination management, and tourism development throughout Central America.",
+      "cta": "Ready to elevate your hospitality business to new heights"
+    }
+  },
+  "cta": {
+    "title": "Ready to Transform Your Hospitality Business?",
+    "description": "Let's discuss how our expertise can help you create extraordinary guest experiences and drive sustainable growth in Panama's dynamic hospitality market.",
+    "primary": "Schedule Free Consultation",
+    "secondary": "Download Our Portfolio"
+  },
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "language": "Language"
+  }
+} 

@@ -1,66 +1,25 @@
+import { LanguageProvider } from "@/contexts/LanguageContext"; // Keep LanguageProvider import
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { ReactNode } from "react"; // Added ReactNode import
 import "./globals.css";
-import PerformanceTracker from "@/components/PerformanceTracker";
+import LayoutContent from "./layout-content"; // Import the new client component
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-  display: "swap", // Improve font loading performance
-  preload: true,
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-  display: "swap", // Improve font loading performance
-  preload: true,
-});
-
+// Define metadata separately as it cannot use hooks
 export const metadata: Metadata = {
-  title: "The Crafted Hospitality",
+  title: "The Crafted Hospitality - Expert Hospitality Consulting in Panama",
   description:
-    "Professional hospitality consulting services in Panama. Expert guidance for hotels, restaurants, and tourism businesses.",
-  keywords:
-    "consultoría hotelera, turismo Panamá, hospitality consulting, hotel management",
-  authors: [{ name: "Gerson, The Crafted Hospitality" }],
-  robots: "index, follow",
-  openGraph: {
-    title: "The Crafted Hospitality - Professional Consulting",
-    description: "Expert hospitality and tourism consulting services in Panama",
-    type: "website",
-    locale: "en_US",
-  },
+    "Transform your hospitality vision into extraordinary experiences. Expert consulting services for hotels, restaurants, and tourism businesses in Panama combining international standards with local excellence.",
 };
 
-export const viewport = {
-  width: "device-width",
-  initialScale: 1,
-};
-
+// RootLayout remains a Server Component
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: {
+  children: ReactNode;
+}) {
   return (
-    <html lang="en">
-      <head>
-        <meta name="theme-color" content="#1f2937" />
-        <meta name="color-scheme" content="light dark" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-      </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} min-h-screen antialiased`}
-      >
-        <PerformanceTracker />
-        {children}
-      </body>
-    </html>
+    <LanguageProvider>
+      <LayoutContent>{children}</LayoutContent>
+    </LanguageProvider>
   );
 }

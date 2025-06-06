@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -27,38 +29,230 @@
     @apply border-border;
   }
 
+  html {
+    scroll-behavior: smooth;
+    font-size: 16px; /* Base font size */
+  }
+
   body {
     @apply min-h-screen bg-background text-foreground;
+    @apply font-sans; /* Lato for body text */
     font-feature-settings:
       "rlig" 1,
       "calt" 1;
-  }
-
-  /* Improve scrolling performance */
-  html {
-    scroll-behavior: smooth;
-  }
-
-  /* Optimize font rendering */
-  body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+    line-height: 1.6;
+  }
+
+  /* Typography System from Style Guide */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading; /* Playfair Display for headings */
+    @apply text-brand-primary;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    @apply text-h1;
+  }
+
+  h2 {
+    @apply text-h2;
+  }
+
+  h3 {
+    @apply text-h3;
+  }
+
+  p {
+    @apply text-body;
+    @apply text-brand-primary;
+    margin-bottom: 1rem;
+  }
+
+  /* On dark backgrounds, use white text */
+  .bg-brand-primary h1,
+  .bg-brand-primary h2,
+  .bg-brand-primary h3,
+  .bg-brand-primary h4,
+  .bg-brand-primary h5,
+  .bg-brand-primary h6,
+  .bg-brand-primary p,
+  .bg-brand-primary ul,
+  .bg-brand-primary li {
+    @apply text-brand-white;
+  }
+
+  .bg-brand-shadow h1,
+  .bg-brand-shadow h2,
+  .bg-brand-shadow h3,
+  .bg-brand-shadow h4,
+  .bg-brand-shadow h5,
+  .bg-brand-shadow h6,
+  .bg-brand-shadow p {
+    @apply text-brand-white;
+  }
+
+  /* Caption/Secondary text */
+  .text-caption {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    font-weight: 300;
+    @apply text-brand-primary;
+    opacity: 0.8;
+  }
+
+  /* Links */
+  a {
+    @apply text-brand-accent;
+    @apply transition-colors duration-200;
+  }
+
+  a:hover {
+    @apply text-brand-primary;
+    text-decoration: underline;
   }
 
   /* Improve image loading */
   img {
     @apply h-auto max-w-full;
   }
+
+  /* Lists */
+  ul, ol {
+    @apply text-body;
+    @apply text-brand-primary;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+  }
+
+  /* Form elements following style guide */
+  input, textarea, select {
+    @apply border border-input;
+    @apply bg-brand-white;
+    @apply text-brand-primary;
+    @apply px-3 py-2;
+    @apply rounded-md;
+    @apply transition-colors duration-200;
+  }
+
+  input:focus, textarea:focus, select:focus {
+    @apply outline-none;
+    @apply ring-2 ring-brand-accent;
+    @apply border-brand-accent;
+  }
+
+  /* Button base styles */
+  button {
+    @apply font-semibold;
+    @apply text-button;
+    @apply transition-all duration-200;
+    @apply cursor-pointer;
+  }
 }
 
 @layer components {
-  /* Add utility classes for performance */
+  /* Primary Button (Gold background) */
+  .btn-primary {
+    @apply bg-brand-accent;
+    @apply text-brand-white;
+    @apply px-6 py-3;
+    @apply rounded-button;
+    @apply shadow-button;
+    @apply font-semibold;
+    @apply uppercase tracking-wide;
+    @apply transition-all duration-200;
+  }
+
+  .btn-primary:hover {
+    @apply bg-brand-primary;
+    @apply text-brand-white;
+    @apply border border-brand-accent;
+    @apply shadow-lg;
+  }
+
+  /* Secondary Button (Transparent with gold border) */
+  .btn-secondary {
+    @apply bg-transparent;
+    @apply text-brand-accent;
+    @apply border border-brand-accent;
+    @apply px-6 py-3;
+    @apply rounded-button;
+    @apply font-semibold;
+    @apply uppercase tracking-wide;
+    @apply transition-all duration-200;
+  }
+
+  .btn-secondary:hover {
+    @apply bg-brand-accent;
+    @apply text-brand-white;
+    @apply shadow-button;
+  }
+
+  /* Card Component */
+  .card {
+    @apply bg-card;
+    @apply border border-border;
+    @apply rounded-lg;
+    @apply shadow-card;
+    @apply p-6;
+  }
+
+  /* Section spacing */
+  .section-padding {
+    @apply py-section;
+  }
+
+  .content-padding {
+    @apply px-content;
+  }
+
+  .content-padding-wide {
+    @apply px-content-wide;
+  }
+
+  /* Navigation Links (All caps from style guide) */
+  .nav-link {
+    @apply font-semibold;
+    @apply uppercase tracking-wider;
+    @apply text-brand-white;
+    @apply transition-colors duration-200;
+  }
+
+  .nav-link:hover {
+    @apply text-brand-accent;
+  }
+
+  /* Hero overlay */
+  .hero-overlay {
+    background: rgba(250, 247, 242, 0.45); /* Off-white overlay */
+  }
+
+  /* Dark overlay for images */
+  .dark-overlay {
+    background: rgba(0, 0, 0, 0.35);
+  }
+
+  /* Utility classes for performance */
   .will-change-transform {
     will-change: transform;
   }
 
   .gpu-accelerated {
     transform: translateZ(0);
+  }
+
+  /* Woodgrain texture (subtle) */
+  .woodgrain-bg {
+    background-image: url('/images/textures/woodgrain-subtle.png');
+    background-repeat: repeat;
+    background-size: 200px;
+    opacity: 0.05;
+  }
+
+  /* Focus styles for accessibility */
+  .focus-visible {
+    @apply ring-2 ring-brand-accent ring-offset-2;
   }
 }

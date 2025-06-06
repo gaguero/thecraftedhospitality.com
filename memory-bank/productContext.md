@@ -1,5 +1,49 @@
 # Product Context - The Crafted Hospitality
 
+## Company Profile - Enhanced
+
+**Consultant**: Gerson, Guest Experience Strategist with **10+ years of experience**
+
+**Business Philosophy**: 
+Exceptional guest experiences emerge from intelligently designed operations. We combine traditional hospitality artesanship with systems that learn from your operation to elevate it, transforming numbers into processes that produce memorable experiences.
+
+**Business Focus**:
+- Guest experience optimization across hotels and restaurants in Panama and Latin America
+- DMC (Destination Management Company) services with predictive insights
+- Hospitality consulting that converts patterns into profit, insights into experiences
+
+**Target Clients**:
+- **Wholesale agencies** (USA, Latin America, Asia) seeking reliable local expertise
+- **Independent hotels** in Panama and Latin America ready for operational excellence
+- **Boutique hotel chains** pursuing cohesive guest journey enhancement
+- **Tourism operators** requiring data-informed destination strategies
+
+**Core Methodology** (4 refined pillars):
+1. **Personalización Inteligente** - Customization backed by guest behavior analytics
+2. **Resultados Medibles** - Every recommendation supported by actionable data
+3. **Transparencia Operativa** - Clear systems that reveal opportunities
+4. **Colaboración Evolutiva** - Partnerships that adapt and improve over time
+
+**Operational Approach**:
+- **"Artesanal Intelligence"** - Crafted solutions that respect your service style
+- **Seamless Technology Integration** - PMS, CRS, CRM systems that communicate naturally
+- **Predictive Operations** - Anticipating needs through pattern recognition, not guesswork
+- **Connected Guest Journeys** - From first impression to lasting memory, every touchpoint optimized
+
+**Geographic Expertise**:
+- **Primary**: Panama (deep local market intelligence)
+- **Secondary**: Latin America region
+- **Delivery**: Strategic blend of remote insights and on-site implementation
+
+**Professional Positioning**:
+- **Guest Experience Architect** - Designing operations that consistently delight
+- **Revenue Intelligence Specialist** - Dynamic optimization without OTA dependency
+- **Operational Excellence Engineer** - Automation that enhances, never replaces, human touch
+- **DMC Innovation Leader** - Experience curation using satisfaction prediction models
+
+**Unique Value Proposition**:
+"Elevating operations through intelligent technology and refined processes. We transform properties into seamless, profitable ventures that delight at every touchpoint - where every decision is data-informed, every guest interaction is intentionally crafted, and every operational system learns to serve your vision better."
+
 ## Problem Statement
 
 Los hoteles independientes y operadores turísticos en Panamá y LatAm enfrentan:
