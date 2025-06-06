@@ -212,7 +212,11 @@
     @apply px-content-wide;
   }
 
+<<<<<<< HEAD
   /* Navigation Links (All caps from style guide) */
+=======
+  /* Navigation Links (All caps from1 style guide) */
+>>>>>>> eff8426aabd37283a563df53e48b985956086a5c
   .nav-link {
     @apply font-semibold;
     @apply uppercase tracking-wider;
@@ -256,3 +260,4 @@
     @apply ring-2 ring-brand-accent ring-offset-2;
   }
 }
+

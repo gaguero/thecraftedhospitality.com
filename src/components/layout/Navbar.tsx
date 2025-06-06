@@ -217,4 +217,4 @@ export default function Navbar({ navTranslations }: NavbarProps) {
       </div>
     </nav>
   );
-} 
+}
