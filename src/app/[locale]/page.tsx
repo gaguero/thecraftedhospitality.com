@@ -61,9 +61,9 @@ export default async function HomePage({
             </div>
           </div>
 
-          {/* Coming Soon - Enhanced with Gradient and Glow */}
+          {/* Coming Soon - Golden Badge */}
           <div className="text-center mb-6 md:mb-8">
-            <div className="inline-block bg-gradient-to-r from-brand-primary/10 via-brand-primary/5 to-brand-primary/10 text-brand-primary border border-brand-primary/30 px-6 md:px-8 py-2 md:py-3 rounded-button font-semibold uppercase tracking-widest text-sm md:text-base hover:bg-brand-primary/15 hover:border-brand-primary/40 transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-brand-primary/15 backdrop-blur-sm">
+            <div className="inline-block bg-gradient-to-r from-amber-500/10 via-yellow-500/5 to-amber-500/10 text-amber-600 border border-amber-500/30 px-6 md:px-8 py-2 md:py-3 rounded-button font-semibold uppercase tracking-widest text-sm md:text-base hover:bg-amber-500/15 hover:border-amber-500/40 transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-amber-500/15 backdrop-blur-sm">
               {locale === 'es' ? 'PRÓXIMAMENTE' : 'COMING SOON'}
             </div>
           </div>
